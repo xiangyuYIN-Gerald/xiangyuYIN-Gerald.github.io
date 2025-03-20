@@ -5,10 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=UyfYk8oAAAAJ">my Google Scholar profile</a>.</div>
-{% endif %}
-
 ====== 
 1. **TAIJI: Textual Anchoring for Immunizing Jailbreak Images in Vision Language Models**
    *arXiv preprint arXiv:2503.10872*&nbsp; &nbsp; <br>
@@ -60,30 +56,3 @@ author_profile: true
    *Proceedings of the AAAI Conference on Artificial Intelligence, 2021*&nbsp;&nbsp;<br>
    <!-- ([paper](https://openreview.net/pdf?id=ZCY1mVtc0f)) -->
    **Authors**: Yanchao, Sun; **Xiangyu, Yin**; Furong, Huang 
-
-
-<!-- {% include base_path %} -->
-
-<!-- New style rendering if publication categories are defined -->
-<!-- {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
-
-
-
