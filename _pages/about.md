@@ -10,8 +10,6 @@ Currenrly, I am in the final year of my Ph.D. in Computer Science at the Univers
 
 Prior to my Ph.D., I earned a Bachelor of Engineering and Management from the joint program between Beijing University of Posts and Telecommunications (BUPT) and Queen Mary University of London (QMUL). I have also gained valuable research experience as a research intern at the University of Maryland, advised by Prof. [Furong Huang](https://furong-huang.com/), and a research student at the Chinese Academy of Science, under the guidance of Prof. [Kunfeng Wang](https://cist.buct.edu.cn/2020/0331/c8726a98764/pagem.htm).
 
-My work is dedicated to improving the security of AI systems, particularly in trustworthy AI, adversarial learning, and multimodal AI.
-
 Education
 ======
 - **University of Liverpool** (2022-present)  
