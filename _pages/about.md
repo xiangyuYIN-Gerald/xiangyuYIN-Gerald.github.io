@@ -1,12 +1,16 @@
 ---
 permalink: /
-title: "Introduction"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Currenrly, I am in my last year of pursuing a Ph.D. in Computer Science at the University of Liverpool, under the guidance of Prof. [Wenjie Ruan](https://wenjieruan.com/), Dr. [Anh Nguyen](https://cgi.csc.liv.ac.uk/~anguyen/) and Prof. [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/). My research primarily focuses on adversarial robustness, black-box certification, and safety mechanisms for large language models and vision language models. Before that, I received my bachelor degree of engineering and management from the joint programme between Beijing University of Posts and Telecommunications and Queen Mary University of London.
+Currenrly, I am in the final year of my Ph.D. in Computer Science at the University of Liverpool, under the supervision of Prof. [Wenjie Ruan](https://wenjieruan.com/), Dr. [Anh Nguyen](https://cgi.csc.liv.ac.uk/~anguyen/) and Prof. [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/). My research focus on adversarial robustness, black-box certification, and safety mechanisms for large language models (LLMs) and Vision Language models (VLMs).
+
+Prior to my Ph.D., I earned a Bachelor of Engineering and Management from the joint program between Beijing University of Posts and Telecommunications (BUPT) and Queen Mary University of London (QMUL). I have also gained valuable research experience as a research intern at the University of Maryland, advised by Prof. [Furong Huang](https://furong-huang.com/), and a research student at the Chinese Academy of Science, under the guidance of Prof. [Kunfeng Wang](https://cist.buct.edu.cn/2020/0331/c8726a98764/pagem.htm).
+
+My work is dedicated to improving the security of AI systems, particularly in trustworthy AI, adversarial learning, and multimodal AI.
 
 Education
 ======
@@ -14,8 +18,8 @@ Education
   Ph.D. in Computer Science
 - **University of Exeter** (2021-2022)  
   Ph.D. in Computer Science
-- **Queen Mary University of London** & **Beijing University of Posts and Telecommunications** (2015-2020)  
-  Bachelor of Engineering and Management (Joint Programme)
+- **Queen Mary University of London** & **Beijing University of Posts and Telecommunications** (2015-2020)
+  Bachelor of Engineering & Management in E-Commerce Engineering
 
 Publications
 ====== 
