@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-====== 
 1. **TAIJI: Textual Anchoring for Immunizing Jailbreak Images in Vision Language Models**
    *arXiv preprint arXiv:2503.10872*&nbsp; &nbsp; <br>
    **Authors**: **Xiangyu, Yin**; Yi, Qi; Jinwei, Hu; Zhen, Chen; Yi, Dong; Xingyu, Zhao; Xiaowei, Huang; Wenjie, Ruan
