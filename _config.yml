@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Xiangyu Yin"
 title_separator          : "-"
 name                     : &name "Xiangyu Yin"
-description              : &description "Ph.D. student in trustworthy AI @ University of Liverpool"
+description              : &description "Assistant Researcher in Trustworthy AI @ Chalmers University of Technology"
 url                      : https://BellGakk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -24,10 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Xiangyu Yin"
   pronouns         : "he/him"  
-  bio              : "Ph.D. student in trustworthy AI and safe LLM/VLM"
-  location         : "Liverpool, GB"
-  employer         : "University of Liverpool"
-  email            : "xiangyuy@liverpool.ac.uk" 
+  bio              : "Assistant Researcher in trustworthy AI and safe LLM/VLM"
+  location         : "Gothenburg, SE"
+  employer         : "Chalmers University of Technology"
+  email            : "297635067@qq.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
