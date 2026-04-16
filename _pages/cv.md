@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-## Contact
-
-- **Name**: Xiangyu Yin (尹相宇)
-- **Email**: 297635067@qq.com
-- **Phone**: +86 18800132081
-
 ## Education
 
 ### University of Liverpool, Ph.D. in Computer Science (Dec 2022 – Jul 2025)
@@ -25,9 +19,6 @@ redirect_from:
 - Research area: Trustworthy AI; Adversarial Machine Learning
 - Supervisors: Dr. Wenjie Ruan; Prof. Jonathan Fieldsend
 - Later transferred to the University of Liverpool
-
-### University of California, Irvine, M.S. study in Computer Science (Sep 2020 – Jul 2021)
-- Note: Due to COVID-19 and U.S. Presidential Proclamation 10043 visa restrictions, in-person degree completion was not feasible at that stage.
 
 ### Beijing University of Posts and Telecommunications & Queen Mary University of London, B.Eng. and B.Management (Sep 2015 – Jun 2020)
 - Major: E-Commerce Engineering and Law (Joint Program)
