@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-## Contact
-
-- **Name**: Xiangyu Yin (尹相宇)
-- **Email**: 297635067@qq.com
-- **Phone**: +86 18800132081
-
 ## Education
 
 ### University of Liverpool, Ph.D. in Computer Science (Dec 2022 – Jul 2025)
@@ -26,9 +20,6 @@ redirect_from:
 - Supervisors: Dr. Wenjie Ruan; Prof. Jonathan Fieldsend
 - Later transferred to the University of Liverpool
 
-### University of California, Irvine, M.S. study in Computer Science (Sep 2020 – Jul 2021)
-- Note: Due to COVID-19 and U.S. Presidential Proclamation 10043 visa restrictions, in-person degree completion was not feasible at that stage.
-
 ### Beijing University of Posts and Telecommunications & Queen Mary University of London, B.Eng. and B.Management (Sep 2015 – Jun 2020)
 - Major: E-Commerce Engineering and Law (Joint Program)
 - GPA: 88.24/100 (Rank 5/171, Top 3%)
@@ -36,9 +27,9 @@ redirect_from:
 
 ## Research and Work Experience
 
-### Chalmers University of Technology, Postdoctoral Researcher (Aug 2025 – Present)
-- Supervisors: Prof. [Chih-Hong Cheng](https://www.chihhongcheng.info/); Prof. Francisco Gomes
-- Worked on the [EU RobustifAI project](https://robustifai.eu/) (Trustworthy Gen-AI) with collaborators across 10+ European institutions.
+### Chalmers University of Technology, Assistant Researcher (Aug 2025 – Present)
+- Supervisors: Prof. Chih-Hong Cheng; Prof. Francisco Gomes
+- Worked on the EU RobustifAI project (Trustworthy Gen-AI) with collaborators across 10+ European institutions.
 - Improved robustness of vision-language-action models through feature engineering and carried out systematic deployment testing on service robots (Hello Robot).
 - Coordinated with cross-team members and mentored newly enrolled Ph.D. students.
 
