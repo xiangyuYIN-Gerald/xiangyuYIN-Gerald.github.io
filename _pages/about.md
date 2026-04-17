@@ -6,15 +6,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Currenrly, I am in the final year of my Ph.D. in Computer Science at the University of Liverpool, under the supervision of Prof. [Wenjie Ruan](https://wenjieruan.com/), Dr. [Anh Nguyen](https://cgi.csc.liv.ac.uk/~anguyen/) and Prof. [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/). My research focus on adversarial robustness, black-box certification, and safety mechanisms for large language models (LLMs) and Vision Language models (VLMs).
+I am **Xiangyu Yin (尹相宇)**, and my research focuses on **Trustworthy AI** and **Adversarial Machine Learning**, with an emphasis on robustness verification, black-box certification, and safety for large language models (LLMs) and vision-language models (VLMs).
 
-Prior to my Ph.D., I earned a Bachelor of Engineering and Management from the joint program between Beijing University of Posts and Telecommunications (BUPT) and Queen Mary University of London (QMUL). I have also gained valuable research experience as a research intern at the University of Maryland, advised by Prof. [Furong Huang](https://furong-huang.com/), and a research student at the Chinese Academy of Science, under the guidance of Prof. [Kunfeng Wang](https://cist.buct.edu.cn/2020/0331/c8726a98764/pagem.htm).
+I am currently a **postdoctoral researcher at Chalmers University of Technology**, working with Prof. [Chih-Hong Cheng](https://www.chihhongcheng.info/), and contributing to the [EU RobustifAI project](https://robustifai.eu/).
 
-Education
-======
-- **University of Liverpool** (2022-present)  
-  Ph.D. in Computer Science
-- **University of Exeter** (2021-2022)  
-  Ph.D. in Computer Science
-- **Queen Mary University of London** & **Beijing University of Posts and Telecommunications** (2015-2020)
-  Bachelor of Engineering & Management in E-Commerce Engineering
+Previously, I conducted my Ph.D. research in Computer Science at the University of Liverpool (transferred from the University of Exeter), and completed my undergraduate study in the joint program between Beijing University of Posts and Telecommunications and Queen Mary University of London.
+
+## Research Interests
+
+- Trustworthy AI
+- Adversarial Machine Learning
+- Safety and certification for LLMs/VLMs
+- Robustness in deep learning systems
+
+## Education (Brief)
+
+- **University of Liverpool**, Ph.D. in Computer Science (Dec 2022 – Jul 2025)
+- **University of Exeter**, Ph.D. in Computer Science (Sep 2021 – Dec 2022, transferred)
+- **University of California, Irvine**, M.S. study in Computer Science (Sep 2020 – Jul 2021)
+- **BUPT & QMUL Joint Program**, B.Eng. and B.Management (Sep 2015 – Jun 2020)
+
+For full details, please see my [CV](/cv/).
