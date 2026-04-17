@@ -8,13 +8,3 @@ date: 2025-01-04
 venue: 'arXiv preprint arXiv:2503.10872'
 citation: 'Xiangyu Yin, Yi Qi, Jinwei Hu, Zhen Chen, Yi Dong, Xingyu Zhao, Xiaowei Huang, and Wenjie Ruan. (2025). "TAIJI: Textual Anchoring for Immunizing Jailbreak Images in Vision Language Models." <i>arXiv:2503.10872</i>.'
 ---
-
-## Authors
-Xiangyu Yin, Yi Qi, Jinwei Hu, Zhen Chen, Yi Dong, Xingyu Zhao, Xiaowei Huang, and Wenjie Ruan
-
-## Figures
-![Figure 1 placeholder](/images/500x300.png)
-![Figure 2 placeholder](/images/image-alignment-580x300.jpg)
-
-## Abstract
-TAIJI proposes textual anchoring mechanisms to defend VLMs against jailbreak-image attacks and improve model safety in multimodal settings.
