@@ -12,7 +12,7 @@ title                    : "Xiangyu Yin"
 title_separator          : "-"
 name                     : &name "Xiangyu Yin"
 description              : &description "Postdoctoral Researcher in Trustworthy Generative AI @ Chalmers University of Technology"
-url                      : https://BellGakk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://xiangyuYIN-Gerald.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
