@@ -2,9 +2,9 @@
 title: "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning"
 authors: "Xiangyu Yin, Yi Qi, Chih-Hong Cheng"
 collection: publications
-category: manuscripts
-date: 2026-03-01
-venue: "arXiv preprint arXiv:2603.22934"
+category: conferencepapers
+date: 2026-09-01
+venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)"
 image: "/images/publications/proground.png"
 ---
 
