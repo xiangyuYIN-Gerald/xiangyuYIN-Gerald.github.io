@@ -21,9 +21,15 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    display: flex;
+    align-items: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+    }
+
+    .masthead__menu {
+      flex: 1;
     }
 
     nav {

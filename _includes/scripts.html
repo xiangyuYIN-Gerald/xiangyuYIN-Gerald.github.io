@@ -1,3 +1,45 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+(function() {
+  var html = document.documentElement;
+  var btn = document.getElementById('dark-mode-toggle');
+  var stored = localStorage.getItem('dark-mode');
+  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (stored === 'on' || (stored === null && prefersDark)) {
+    html.classList.add('dark-mode');
+  }
+
+  if (btn) {
+    btn.addEventListener('click', function() {
+      if (html.classList.toggle('dark-mode')) {
+        localStorage.setItem('dark-mode', 'on');
+      } else {
+        localStorage.setItem('dark-mode', 'off');
+      }
+    });
+  }
+})();
+</script>
+
+<script>
+(function () {
+  var btn = document.getElementById('news-toggle');
+  if (!btn) return;
+  var hidden = document.querySelectorAll('#news-list .news-hidden');
+  var label  = btn.querySelector('.news-toggle-label');
+  var count  = hidden.length;
+
+  btn.addEventListener('click', function () {
+    var isOpen = btn.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', isOpen);
+    hidden.forEach(function (el) {
+      el.style.display = isOpen ? 'flex' : 'none';
+    });
+    label.textContent = isOpen ? 'Show less' : 'Show ' + count + ' more';
+  });
+})();
+</script>
+
 {% include analytics.html %}

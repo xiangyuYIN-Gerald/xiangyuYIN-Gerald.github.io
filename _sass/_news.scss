@@ -1,0 +1,104 @@
+/* ==========================================================================
+   NEWS SECTION
+   ========================================================================== */
+
+.news-section {
+  margin-top: 1.5em;
+
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news-item {
+    display: flex;
+    gap: 0.75em;
+    align-items: baseline;
+    padding: 0.6em 0.9em;
+    margin-bottom: 0.5em;
+    border-left: 3px solid #e94560;
+    background: #f9f9fb;
+    border-radius: 0 4px 4px 0;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background: #f0f0f8;
+      border-left-color: #52adc8;
+    }
+  }
+
+  .news-date {
+    flex-shrink: 0;
+    font-size: 0.78em;
+    color: #888;
+    font-family: monospace;
+    min-width: 6.5em;
+    padding-top: 0.1em;
+  }
+
+  .news-badge {
+    flex-shrink: 0;
+    font-size: 0.68em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.15em 0.45em;
+    border-radius: 3px;
+    line-height: 1.6;
+
+    &.badge-paper   { background: #d4edda; color: #155724; }
+    &.badge-award   { background: #fff3cd; color: #856404; }
+    &.badge-talk    { background: #cce5ff; color: #004085; }
+    &.badge-service { background: #e2d9f3; color: #4a235a; }
+    &.badge-misc    { background: #e2e3e5; color: #383d41; }
+  }
+
+  .news-text {
+    font-size: 0.92em;
+    line-height: 1.5;
+    flex: 1;
+
+    a {
+      color: #52adc8;
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+
+      &:hover {
+        color: #007bbd;
+        border-bottom-style: solid;
+      }
+    }
+  }
+
+  /* Collapsible extra items */
+  .news-item.news-hidden {
+    display: none;
+  }
+
+  .news-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-top: 0.6em;
+    background: none;
+    border: none;
+    padding: 0.3em 0;
+    cursor: pointer;
+    font-size: 0.85em;
+    color: #52adc8;
+    font-family: inherit;
+
+    &:hover { color: #007bbd; }
+
+    .news-toggle-icon {
+      display: inline-block;
+      font-size: 0.75em;
+      transition: transform 0.25s ease;
+    }
+
+    &.is-open .news-toggle-icon {
+      transform: rotate(180deg);
+    }
+  }
+}

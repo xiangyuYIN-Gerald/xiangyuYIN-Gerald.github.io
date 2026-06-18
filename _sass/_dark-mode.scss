@@ -1,0 +1,217 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+html.dark-mode {
+  --dm-bg: #1a1a2e;
+  --dm-surface: #16213e;
+  --dm-surface-2: #0f3460;
+  --dm-text: #e0e0e0;
+  --dm-text-muted: #a0a0b0;
+  --dm-border: #2a2a4a;
+  --dm-link: #7ec8e3;
+  --dm-link-hover: #b3e0f0;
+  --dm-accent: #e94560;
+  --dm-code-bg: #0d1117;
+  --dm-masthead-bg: #16213e;
+
+  background-color: var(--dm-bg);
+  color: var(--dm-text);
+
+  body {
+    background-color: var(--dm-bg);
+    color: var(--dm-text);
+  }
+
+  /* Masthead */
+  .masthead {
+    background: var(--dm-masthead-bg);
+    border-bottom-color: var(--dm-border);
+
+    a {
+      color: var(--dm-text);
+    }
+
+    .greedy-nav {
+      background: var(--dm-masthead-bg);
+
+      .visible-links a {
+        color: var(--dm-text-muted);
+
+        &:hover {
+          color: var(--dm-text);
+        }
+      }
+    }
+  }
+
+  .masthead__menu-item--lg a {
+    color: var(--dm-text) !important;
+  }
+
+  /* Sidebar / author profile */
+  .sidebar {
+    background-color: transparent;
+
+    a {
+      color: var(--dm-link);
+
+      &:hover {
+        color: var(--dm-link-hover);
+      }
+    }
+
+    .author__name {
+      color: var(--dm-text);
+    }
+
+    .author__bio {
+      color: var(--dm-text-muted);
+    }
+  }
+
+  /* Page content */
+  .page__content {
+    color: var(--dm-text);
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--dm-text);
+    }
+
+    a {
+      color: var(--dm-link);
+
+      &:visited {
+        color: var(--dm-link);
+      }
+
+      &:hover {
+        color: var(--dm-link-hover);
+      }
+    }
+
+    hr {
+      border-top-color: var(--dm-border);
+    }
+
+    p, li {
+      color: var(--dm-text);
+    }
+  }
+
+  /* Footer */
+  .page__footer {
+    background: var(--dm-surface);
+    color: var(--dm-text-muted);
+
+    a {
+      color: var(--dm-link);
+    }
+  }
+
+  /* Code blocks */
+  pre, code {
+    background-color: var(--dm-code-bg);
+    border-color: var(--dm-border);
+    color: #c9d1d9;
+  }
+
+  /* Tables */
+  table {
+    color: var(--dm-text);
+
+    th {
+      background-color: var(--dm-surface-2);
+      color: var(--dm-text);
+      border-color: var(--dm-border);
+    }
+
+    td {
+      border-color: var(--dm-border);
+    }
+
+    tr:nth-child(even) {
+      background-color: var(--dm-surface);
+    }
+  }
+
+  /* Navigation links in visible-links */
+  .greedy-nav .visible-links a:before {
+    background: var(--dm-accent);
+  }
+
+  /* Archive items */
+  .archive__item-title a {
+    color: var(--dm-link);
+  }
+
+  /* Notices */
+  .notice {
+    background-color: var(--dm-surface);
+    border-color: var(--dm-border);
+    color: var(--dm-text);
+  }
+
+  /* News section */
+  .news-section {
+    .news-item {
+      border-left-color: var(--dm-accent);
+      background: var(--dm-surface);
+
+      .news-date {
+        color: var(--dm-text-muted);
+      }
+
+      .news-badge {
+        &.badge-paper { background: #2d5a27; color: #90ee90; }
+        &.badge-award { background: #5a4a00; color: #ffd700; }
+        &.badge-talk  { background: #1a3a5a; color: #87ceeb; }
+        &.badge-service { background: #3a1a5a; color: #dda0dd; }
+        &.badge-misc  { background: #3a3a3a; color: #d3d3d3; }
+      }
+    }
+
+    .news-toggle {
+      color: var(--dm-link);
+      &:hover { color: var(--dm-link-hover); }
+    }
+  }
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  margin-left: 0.5em;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.08);
+    transform: scale(1.1);
+  }
+
+  .icon-sun, .icon-moon {
+    display: none;
+  }
+}
+
+html:not(.dark-mode) .dark-mode-toggle .icon-sun { display: inline; }
+html.dark-mode .dark-mode-toggle .icon-moon { display: inline; }
+
+html.dark-mode .dark-mode-toggle {
+  border-color: #555;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
