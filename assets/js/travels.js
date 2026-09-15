@@ -1,7 +1,7 @@
 (function () {
   var status = document.getElementById('travel-status');
   if (!window.L) { status.textContent = 'Map library could not load. The visited countries are listed below.'; return; }
-  var visited = {"GBR": ["United Kingdom", "英国"], "NOR": ["Norway", "挪威"], "SWE": ["Sweden", "瑞典"], "FRA": ["France", "法国"], "DEU": ["Germany", "德国"], "USA": ["United States", "美国"], "CHN": ["China", "中国"], "AUT": ["Austria", "奥地利"], "BEL": ["Belgium", "比利时"], "ITA": ["Italy", "意大利"], "ESP": ["Spain", "西班牙"], "MLT": ["Malta", "马耳他"], "ARE": ["United Arab Emirates", "阿联酋"]};
+  var visited = {"GBR": ["United Kingdom", "英国"], "NOR": ["Norway", "挪威"], "SWE": ["Sweden", "瑞典"], "FRA": ["France", "法国"], "DEU": ["Germany", "德国"], "USA": ["United States", "美国"], "CHN": ["China", "中国（祖国）"], "AUT": ["Austria", "奥地利"], "BEL": ["Belgium", "比利时"], "ITA": ["Italy", "意大利"], "ESP": ["Spain", "西班牙"], "MLT": ["Malta", "马耳他"], "ARE": ["United Arab Emirates", "阿联酋"]};
   var map = L.map('travel-map', { scrollWheelZoom: false, minZoom: 1, maxZoom: 12, zoomSnap: 0.25 });
   function worldView() { map.fitBounds([[-58,-178],[80,178]], {padding:[8,8]}); }
   worldView();
