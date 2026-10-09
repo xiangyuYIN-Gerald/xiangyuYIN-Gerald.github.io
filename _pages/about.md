@@ -15,6 +15,11 @@ I received my Ph.D. in Computer Science from the University of Liverpool (transf
 <div class="news-section">
 <ul class="news-list" id="news-list">
   <li class="news-item">
+    <span class="news-date">2026-10</span>
+    <span class="news-badge badge-paper">Paper</span>
+    <span class="news-text"><em>Manifold-Aligned Adversarial Perturbation for Anti-Customization under Diffusion-based Purification</em> accepted at <strong>NeurIPS 2026</strong>.</span>
+  </li>
+  <li class="news-item">
     <span class="news-date">2026-06</span>
     <span class="news-badge badge-paper">Paper</span>
     <span class="news-text"><em>ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning</em> accepted at <strong>ECML-PKDD 2026</strong>.</span>
@@ -24,7 +29,7 @@ I received my Ph.D. in Computer Science from the University of Liverpool (transf
     <span class="news-badge badge-paper">Paper</span>
     <span class="news-text"><em>Fragile by Design: On the Limits of Adversarial Defenses in Personalized DreamBooth Generation</em> accepted at <strong>AAAI 2026</strong>.</span>
   </li>
-  <li class="news-item">
+  <li class="news-item news-hidden">
     <span class="news-date">2025-12</span>
     <span class="news-badge badge-paper">Paper</span>
     <span class="news-text"><em>FALCON: Fine-Grained Activation Manipulation by Contrastive Orthogonal Unalignment for Large Language Model</em> accepted at <strong>NeurIPS 2025</strong>.</span>
@@ -82,7 +87,7 @@ I received my Ph.D. in Computer Science from the University of Liverpool (transf
 </ul>
 <button class="news-toggle" id="news-toggle" aria-expanded="false">
   <span class="news-toggle-icon">▼</span>
-  <span class="news-toggle-label">Show 10 more</span>
+  <span class="news-toggle-label">Show 11 more</span>
 </button>
 </div>
 
