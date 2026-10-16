@@ -1,10 +1,10 @@
 ---
-title: "Cumulative Consensus Score: Label-Free and Model-Agnostic Evaluation of Object Detectors in Deployment"
+title: "Cumulative Consensus Score: A Label-Free Signal for Monitoring Object Detectors in Deployment"
 authors: "Avinaash Manoharan, Xiangyu Yin, Domenik Helm, Chih-Hong Cheng"
 collection: publications
-category: manuscripts
-date: 2025-10-01
-venue: "arXiv preprint arXiv:2509.12871"
+category: conferences
+date: 2026-10-16
+venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027 — Accepted"
 image: "/images/publications/cumulative.png"
 ---
 
